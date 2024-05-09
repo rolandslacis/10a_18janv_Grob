@@ -1,0 +1,11 @@
+fails = input("darbs")
+
+try:
+    with open(fails, 'r') as f:
+        tresā_rinda = f.readlines()[2]
+        print("trešās rindas saturs:")
+        print(tresā_rinda)
+except FileNotFoundError:
+    print("Failu nevar atrast.")
+except IndexError:
+    print("Failā nav pietiekami rindu.")
