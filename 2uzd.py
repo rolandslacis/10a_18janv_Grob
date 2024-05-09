@@ -1,7 +1,7 @@
 import csv 
 def funkcija():
     try:
-        with open("fails.csv", "r", encoding="utf-8") as bb:
+        with open("darbs.csv", "r", encoding="utf-8") as bb:
             pass
             
     except:
